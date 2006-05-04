@@ -22,7 +22,8 @@ Javadoc for %{name}.
 
 %prep
 %setup -q -n mozilla
-for dir in `find . -type d -name CVS`; do rm -rf $dir; done
+# remove CVS control files
+find -name CVS -print0 | xargs -0 rm -rf
 
 %build
 cd directory/java-sdk
