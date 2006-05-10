@@ -5,7 +5,8 @@ Release:	0.1
 License:	NPL
 Group:		Development/Libraries
 URL:		http://www.mozilla.org/directory/
-Source0:	ftp://ftp.mozilla.org/pub/directory/java-sdk/%{name}_java_20020819.tar.gz
+Source0:	http://www.mozilla.org/directory/ldapsdk_java_20020819.tar.gz
+# Source0-md5:	f0eef8fc5c4961cdebdd9b9188228431
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
