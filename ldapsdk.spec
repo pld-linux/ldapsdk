@@ -1,12 +1,13 @@
 Summary:	Enables applications to manage information stored in an LDAP directory
+Summary(pl):	Umo¿liwienie aplikacjom zarz±dzania informacjami w katalogu LDAP
 Name:		ldapsdk
 Version:	4.17
 Release:	0.1
 License:	NPL
 Group:		Development/Libraries
-URL:		http://www.mozilla.org/directory/
 Source0:	http://www.mozilla.org/directory/ldapsdk_java_20020819.tar.gz
 # Source0-md5:	f0eef8fc5c4961cdebdd9b9188228431
+URL:		http://www.mozilla.org/directory/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -14,12 +15,20 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Mozilla LDAP SDKs enable you to write applications which access,
 manage, and update the information stored in an LDAP directory.
 
+%description -l pl
+Mozilla LDAP SDK pozwala pisaæ aplikacje odwo³uj±ce siê, zarz±dzaj±ce
+i uaktualniaj±ce informacje przechowywane w katalogu LDAP.
+
 %package javadoc
-Summary:	Javadoc for %{name}
+Summary:	Javadoc for LDAP SDK
+Summary(pl):	Dokumentacja javadoc dla LDAP SDK
 Group:		Documentation
 
 %description javadoc
-Javadoc for %{name}.
+Javadoc for LDAP SDK.
+
+%description javadoc -l pl
+Dokumentacja javadoc dla LDAP SDK.
 
 %prep
 %setup -q -n mozilla
