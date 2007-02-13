@@ -1,5 +1,5 @@
 Summary:	Enables applications to manage information stored in an LDAP directory
-Summary(pl.UTF-8):   Umożliwienie aplikacjom zarządzania informacjami w katalogu LDAP
+Summary(pl.UTF-8):	Umożliwienie aplikacjom zarządzania informacjami w katalogu LDAP
 Name:		ldapsdk
 Version:	4.17
 Release:	0.1
@@ -25,7 +25,7 @@ i uaktualniające informacje przechowywane w katalogu LDAP.
 
 %package javadoc
 Summary:	Javadoc for LDAP SDK
-Summary(pl.UTF-8):   Dokumentacja javadoc dla LDAP SDK
+Summary(pl.UTF-8):	Dokumentacja javadoc dla LDAP SDK
 Group:		Documentation
 
 %description javadoc
